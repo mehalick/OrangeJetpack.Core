@@ -1,11 +1,20 @@
 {
   "version": "0.1.0-beta-*",
-
+  "packOptions": {
+    "summary": "A set of .NET Core utilities from Orange Jetpack.",
+    "owners": [ "Andy Mehalick", "Orange Jetpack Studios" ],
+    "iconUrl": "https://ojs.azureedge.net/assets/orange-jetpack-logo-white-128x128-635776631313452039.png",
+    "licenseUrl": "https://github.com/mehalick/OrangeJetpack.Core/blob/master/LICENSE",
+    "projectUrl": "https://github.com/mehalick/OrangeJetpack.Core",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mehalick/OrangeJetpack.Core"
+    }
+  },
   "dependencies": {
     "NETStandard.Library": "1.6.0",
     "System.Runtime.Extensions": "4.3.0"
   },
-
   "frameworks": {
     "netstandard1.6": {
       "imports": "dnxcore50"
